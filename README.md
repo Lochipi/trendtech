@@ -20,6 +20,7 @@ At TrendTech, we believe in the power of community-driven development. We welcom
 # Deployment configuration
  - Git
  - GitHub
+ - Azure Static Web Service.
 
 # Testing
  - Jest
