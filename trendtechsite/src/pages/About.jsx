@@ -1,8 +1,13 @@
+import { StyledAbout } from "./styles/About.styled"
+
 function About() {
   return (
-    <div>
-      <h2>About page</h2>
-    </div>
+    <StyledAbout>
+      <div>
+        <h2>About page</h2>
+      </div>
+    </StyledAbout>
+
   )
 }
 
