@@ -1,8 +1,14 @@
+import { WhyUsStyled } from "./styles/WhyUs.styled"
+
 function WhyUs() {
   return (
-    <div>
-      <h2>Why us page</h2>
-    </div>
+    <WhyUsStyled>
+      <h2>Why Choose Us</h2>
+
+      <div>
+        
+      </div>
+    </WhyUsStyled>
   )
 }
 
