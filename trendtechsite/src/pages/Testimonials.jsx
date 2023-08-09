@@ -1,9 +1,18 @@
+import TestimonialCard from "../components/TestimonialCard";
+import { TestimonialStyled } from "./styles/Testimonial.styled";
+
 function Testimonials() {
   return (
-    <div>
-      <h2>Testimonials page</h2>
-    </div>
-  )
+    <TestimonialStyled>
+      <div className="content">
+      <h1>Testimonials page</h1>
+      <div className="testi-card">
+        <TestimonialCard />
+      </div>
+      </div>
+      
+    </TestimonialStyled>
+  );
 }
 
-export default Testimonials
+export default Testimonials;

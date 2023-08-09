@@ -28,7 +28,6 @@ export const ProductsStyled = styled.section`
 
     @media (max-width: 576px) {
         .products--container {
-          
           align-items: center;
         }
       }

@@ -1,14 +1,12 @@
-import { WhyUsStyled } from "./styles/WhyUs.styled"
-
+import WhyCard from "../components/WhyCard";
+import { WhyUsStyled } from "./styles/WhyUs.styled";
 function WhyUs() {
   return (
     <WhyUsStyled>
-      <h2>Why Choose Us</h2>
-
-      <div>
-      </div>
+      <h1>Why Choose Us</h1>
+        <WhyCard />
     </WhyUsStyled>
-  )
+  );
 }
 
-export default WhyUs
+export default WhyUs;
