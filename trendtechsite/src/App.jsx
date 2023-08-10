@@ -6,6 +6,7 @@ import About from './pages/About'
 import Hero from './pages/Hero'
 import Testimonials from './pages/Testimonials'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Products />
       <Testimonials />
       <Contact />
+      <Footer />
     </>
   )
 }

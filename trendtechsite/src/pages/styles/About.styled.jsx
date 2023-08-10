@@ -29,4 +29,11 @@ export const StyledAbout = styled.div`
     color: #dfd9c9;
     text-shadow: 1px 1px 2px #000000;
   }
+
+  @media (max-width: 568px) {
+    p {
+      line-height: 1.5em;
+      font-size: .8em;
+    }
+  }
 `;
