@@ -10,13 +10,13 @@ function Contact() {
           <p>Find out how products can help you be more <br /> productive. Say no more and give us a call.</p>
           <Button color="black">CONTACT US</Button>
         </div>
-        <div>
-          <h3>
+        <div className="contact-address">
+          <h4>
             Phone: <span>(923)8473f476</span>
-          </h3>
-          <h3>
+          </h4>
+          <h4>
             Email: <span>emasoft@google.com</span>
-          </h3>
+          </h4>
           <div className="socials">
             <div>SOCIAL:</div>
             <div className="svg">
@@ -37,9 +37,7 @@ function Contact() {
                 version="1.1"
                 id="Layer_1"
                 xmlns="http://www.w3.org/2000/svg"
-                // xmlns="http://www.w3.org/1999/xlink"
                 viewBox="-143 145 512 512"
-                // xml:space="preserve"
               >
                 <path
                   d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9
@@ -55,7 +53,6 @@ function Contact() {
                 viewBox="0 -4 48 48"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
-                // xmlns:xlink="http://www.w3.org/1999/xlink"
               >
                 <title>Twitter-color</title>
                 <desc>Created with Sketch.</desc>
@@ -63,9 +60,7 @@ function Contact() {
                 <g
                   id="Icons"
                   stroke="none"
-                  // stroke-width="1"
                   fill="none"
-                  // fill-rule="evenodd"
                 >
                   <g
                     id="Color-"

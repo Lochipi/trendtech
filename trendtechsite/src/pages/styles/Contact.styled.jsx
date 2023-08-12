@@ -6,22 +6,34 @@ export const ContactStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  // margin: 2em 0;
 
   .contact-content {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 4em;
-    padding: 0 2em;
+    align-items: center;
+    gap: 2em;
   }
 
   .get-content h1 {
-    margin: .5em 0;
+    margin: .3em 0;
     font-size: 3em;
   }
 
   .get-content p {
-    padding: 0.3em 0;
+    padding: 0.5em 0;
+    margin: 0;
+  }
+
+  .contact-address {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-address h4 {
+    margin: .5em 0;
+    padding: 0;
   }
 
   .contact-img {
@@ -43,6 +55,7 @@ export const ContactStyled = styled.div`
   .socials {
     display: flex;
     align-items: center;
+    justify-content: start;
   }
 
   .svg {
