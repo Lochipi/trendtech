@@ -1,5 +1,5 @@
-import prodData from "../assets/data"
-import { StyledCard } from "./styles/card.styled";
+import prodData from "../assets/data";
+import { StyledCard } from "../components/styles/Card.styled";
 
 function Card() {
   
