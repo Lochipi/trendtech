@@ -27,6 +27,3 @@ export const StyledCard = styled.div`
   }
 `;
 
-// background: blue url(./home.jpg);
-// background-position: center;
-// background-size: cover;

@@ -1,26 +1,17 @@
-import Card from "../components/Card"
-import { ProductsStyled } from "./styles/Products.styled"
-import data from "../assets/data"
+import Card from "../components/Card";
+import { ProductsStyled } from "./styles/Products.styled";
 
 function Products() {
-
-  const product = data.map(item => 
-    <Card 
-      key= {item.key}
-      {...item}
-    />
-   )
-
   return (
     <ProductsStyled>
       <h1>All Products</h1>
       <div className="products--container">
-       {product}
-       <hr />
+        <Card />
+        <hr />
       </div>
-     <hr />
+      <hr />
     </ProductsStyled>
-  )
+  );
 }
 
-export default Products
+export default Products;

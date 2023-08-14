@@ -1,16 +1,26 @@
+import prodData from "../assets/data"
 import { StyledCard } from "./styles/card.styled";
 
-function Card(props) {
+function Card() {
+  
   return (
-    <StyledCard>
-      <div className="card--img">
-        <img src={props.imgUrl} alt="" />
-      </div>
-      <div className="card--content">
-        <h3>{props.title}</h3>
-        <p>{props.desc}</p>
-      </div>
-    </StyledCard>
+    <div>
+      {Object.values(prodData).map((product) => {
+        return (
+          <>
+          <StyledCard>
+            <div className="card--img">
+              <img src={product.imgUrl} alt="" />
+            </div>
+            <div className="card--content">
+              <h3>{product.title}</h3>
+              <p>{product.desc}</p>
+            </div>
+          </StyledCard>
+          </>
+        );
+      })}
+    </div>
   );
 }
 
