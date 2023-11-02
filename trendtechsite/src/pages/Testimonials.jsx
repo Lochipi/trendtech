@@ -5,12 +5,11 @@ function Testimonials() {
   return (
     <TestimonialStyled>
       <div className="content">
-      <h1>Testimonials page</h1>
-      <div className="testi-card">
-        <TestimonialCard />
+        <h1>Testimonials page</h1>
+        <div className="testi-card">
+          <TestimonialCard />
+        </div>
       </div>
-      </div>
-      
     </TestimonialStyled>
   );
 }

@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const ProductsStyled = styled.div`
+export const ProductsStyled = styled.section`
   min-height: 100vh;
   width: 100%;
   background-color: rgba(42, 41, 44, 1);
@@ -8,15 +8,15 @@ export const ProductsStyled = styled.div`
 
   & h1 {
     text-align: center;
-    font-weight: lighter;
+    font-weight: Bold;
     color: #dfd9c9;
     padding: 1em 0 0.5em 0;
   }
 
-  .products--container {
+  .products--container div {
     display: flex;
     justify-content: center;
-    gap: 4em;
+    gap: 2em;
     flex-wrap: wrap;
   }
 

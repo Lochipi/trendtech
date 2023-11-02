@@ -6,10 +6,10 @@ function Products() {
     <ProductsStyled>
       <h1>All Products</h1>
       <div className="products--container">
-        <Card />
-        <hr />
+        <div>
+          <Card />
+        </div>
       </div>
-      <hr />
     </ProductsStyled>
   );
 }
