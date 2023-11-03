@@ -11,6 +11,7 @@ export const ProductsStyled = styled.section`
     font-weight: Bold;
     color: #dfd9c9;
     padding: 1em 0 0.5em 0;
+    margin: 0;
   }
 
   .products--container div {

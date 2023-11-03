@@ -2,10 +2,12 @@ import WhyCard from "../components/WhyCard";
 import { WhyUsStyled } from "./styles/WhyUs.styled";
 function WhyUs() {
   return (
-    <WhyUsStyled>
-      <h1>Why Choose Us</h1>
+    <div>
+      <WhyUsStyled>
+        <h1 className="why-title">Why Choose Us</h1>
         <WhyCard />
-    </WhyUsStyled>
+      </WhyUsStyled>
+    </div>
   );
 }
 

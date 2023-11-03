@@ -9,6 +9,11 @@ export const StyledWhyUs = styled.div`
     color: #dfd9c9;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin: 0;
   }
 
   .icon--div {

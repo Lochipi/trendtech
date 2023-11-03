@@ -7,9 +7,10 @@ export const WhyUsStyled = styled.div`
   backgroud-position: center;
   background-size: cover;
 
-  h1 {
+  .why-title {
     text-align: center;
-    padding: 1em 0;
+    padding: 0.5em 0;
+    margin: 0;
     font-weight: light;
     font-style: italic;
   }
@@ -21,7 +22,7 @@ export const WhyUsStyled = styled.div`
     flex-wrap: wrap;
   }
 
-  @media (max-width:576px) {
+  @media (max-width: 576px) {
     h1 {
       font-size: 2em;
     }

@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export const TestimonialStyled = styled.div`
   min-height: 90vh;
   width: 100%;
-  background-color: rgba(42, 41, 44, 1);
+  background-color: purple;
 
   & .content {
     display: flex;
