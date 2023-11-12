@@ -3,37 +3,60 @@ import { styled } from "styled-components";
 export const StyledAbout = styled.div`
   min-height: 100vh;
   width: 100%;
-  background: green url(/mountain.jpg);
-  background-size: cover;
-  background-position: center;
+  background: #202328;
+  margin: 0;
+  padding: 0;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  .about {
+    z-index: 0;
+    position: relative;
+  }
 
-  & div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0 2em;
+  h2 {
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    top: 5%;
+    font-weight: 700;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .about-top {
+    height: 30vh;
+    background: #202328);
+  }
+
+  .img-about {
+    height: 50vh;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -15vh;
+    background: #202328 url(/mountain.jpg) no-repeat center;);
+    object-fit: cover;
+    background-position: center;
   }
 
   h1 {
-    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+    color: #fff;
   }
 
-  p {
+  p{
     text-align: center;
-    color: #dfd9c9;
-    text-shadow: 1px 1px 2px #000000;
   }
 
   @media (max-width: 568px) {
     p {
       line-height: 1.5em;
-      font-size: .8em;
+      font-size: 0.8em;
     }
   }
 `;

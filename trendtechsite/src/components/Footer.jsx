@@ -193,7 +193,7 @@ function Footer() {
             </ul>
           </div>
 
-          <small>© Atheros Intelligence Ltd. {year}, All rights reserved</small>
+          <small>© TrendTech Innovations Ltd. {year}, All rights reserved</small>
         </div>
       </div>
     </FooterStyled>

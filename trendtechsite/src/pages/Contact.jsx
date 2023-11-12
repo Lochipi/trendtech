@@ -7,12 +7,15 @@ function Contact() {
       <div className="contact-content">
         <div className="get-content">
           <h1>Get in touch!</h1>
-          <p>Find out how products can help you be more <br /> productive. Say no more and give us a call.</p>
+          <p>
+            Find out how products can help you be more <br /> productive. Say no
+            more and give us a call.
+          </p>
           <Button color="black">CONTACT US</Button>
         </div>
         <div className="contact-address">
           <h4>
-            Phone: <span>(923)8473f476</span>
+            Phone: <span>(254)8473f476</span>
           </h4>
           <h4>
             Email: <span>emasoft@google.com</span>
@@ -57,11 +60,7 @@ function Contact() {
                 <title>Twitter-color</title>
                 <desc>Created with Sketch.</desc>
                 <defs></defs>
-                <g
-                  id="Icons"
-                  stroke="none"
-                  fill="none"
-                >
+                <g id="Icons" stroke="none" fill="none">
                   <g
                     id="Color-"
                     transform="translate(-300.000000, -164.000000)"

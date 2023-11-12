@@ -26,10 +26,10 @@ export const ContactStyled = styled.div`
     margin: 0;
   }
 
-  .contact-address {
-    display: flex;
-    flex-direction: column;
-  }
+  // .contact-address {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
 
   .contact-address h4 {
     margin: .5em 0;

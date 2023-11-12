@@ -3,29 +3,19 @@ import { StyledAbout } from "./styles/About.styled";
 function About() {
   return (
     <StyledAbout>
-      <div>
-        <h1>About page</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque est
-          nihil error, soluta voluptas tempore cum modi quas! Deserunt
-          aspernatur fugiat neque repudiandae maiores fugit, quos nam aut rem
-          animi est expedita. Ad, quas. Eaque sint autem quidem dolores.
-          Assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Eaque est nihil error, soluta voluptas tempore cum modi quas! Deserunt
-          aspernatur fugiat neque repudiandae maiores fugit, quos nam aut rem
-          animi est expedita. Ad, quas. Eaque sint autem quidem dolores.
-          Assumenda!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          eveniet ab excepturi beatae laboriosam officia quia dolorum expedita
-          iste aliquid quibusdam, sit consequuntur dicta aperiam aut tenetur
-          minus saepe. Necessitatibus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Eaque est nihil error, soluta voluptas tempore cum
-          modi quas! Deserunt aspernatur fugiat neque repudiandae maiores fugit,
-          quos nam aut rem animi est expedita. Ad, quas. Eaque sint autem quidem
-          dolores. Assumenda!
-        </p>
+      <div className="about">
+        <h2>Our Story</h2>
+        <div className="about-top"></div>
+        <div className="img-about"></div>
+        <div>
+          <h1>All about us</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            facilis maxime assumenda labore sapiente accusamus laboriosam error
+            blanditiis ea natus similique illo architecto distinctio, ut, atque
+            placeat eligendi itaque obcaecati.
+          </p>
+        </div>
       </div>
     </StyledAbout>
   );
