@@ -36,9 +36,17 @@ export const StyledAbout = styled.div`
     margin: 0 auto;
     position: relative;
     top: -15vh;
-    background: #202328 url(/mountain.jpg) no-repeat center;);
+    background: #202328 url(/about.jpg) no-repeat center;);
     object-fit: cover;
     background-position: center;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    width: 100%;
   }
 
   h1 {
